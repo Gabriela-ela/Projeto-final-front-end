@@ -37,3 +37,9 @@ Projeto para demonstrar habilidades e competências do programa +Devs2blu2025
 
 ** Imagens das telas:
 Algumas imagens para melhor visualização das funcionalidades:
+
+- Página principal: https://github.com/Gabriela-ela/Projeto-final-front-end/blob/main/imagens/p%C3%A1gina%20principal.jpeg
+- Carrinho de compras: https://github.com/Gabriela-ela/Projeto-final-front-end/blob/main/imagens/carrinho.jpeg
+- Filtro de busca: https://github.com/Gabriela-ela/Projeto-final-front-end/blob/main/imagens/filtro%20de%20busca.jpeg
+
+******************************************************************************************************************************************
