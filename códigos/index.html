@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Projeto Lojinha</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="image.png" alt="Logo lojinha">
+        <form id="formulario" onsubmit="return pesquisar()">
+            <input type="text" id="pesquisa" placeholder="Pesquise aqui.">
+            <input type="submit">
+        </form>
+        <div class="categorias-container">
+            <span class="titulo-categorias">Categorias</span>
+            <ul>
+                <li><a href="#acao-e-aventura">Ação e Aventura</a></li>
+                <li><a href="#primeira-infancia-e-bonecas">Primeira Infância e Bonecas</a></li>
+                <li><a href="#aprendizado-e-criatividade">Aprendizado e Criatividade</a></li>
+            </ul>
+        </div>
+        <div id="carrinho" onclick="abrirCarrinho(event)">
+            <a href="#">
+                <i class="bi bi-cart"></i>
+                <span id="contador">0</span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div id="carrinho-container">
+            <ul id="lista-itens"></ul>
+            <div id="total-carrinho"></div>
+            <button id="finalizar-compra" onclick="finalizarCompra()">Finalizar Compra</button>
+        </div>
+
+        <div id="produtos"></div>
+    </main>
+
+    <script src="itens.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
